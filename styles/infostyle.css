@@ -1,0 +1,41 @@
+body{
+    background-color: #020916;
+}
+
+p, h1, h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: top;
+}
+
+img{
+    width: 45%;
+    height: auto;
+}
+.poster{
+    width: 450px;
+    height: auto;
+    padding: 1%;
+}
+
+.rates{
+    width: 30%;
+    height: auto;
+    display: inline;
+  }
+.tomRate{
+    display: inline;
+    margin-left: 4px;
+}
+.rottenTomatoes{
+    display: inline-flex;
+    align-items: center;
+}
+.rateContainer{
+    display: inline-flex;
+    justify-content: center;
+}
