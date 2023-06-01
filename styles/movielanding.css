@@ -1,0 +1,51 @@
+body{
+    background-color: #000000;
+    margin: 0px;
+    margin-bottom: 4%;
+}
+
+.buttondiv{
+    background-image: url("https://wallpaperaccess.com/full/3658597.jpg");
+    background-size: contain;
+    width: 100%; /* Set the width of the element */
+    height: 500px;
+    border: none;
+    
+}
+
+.topbar{
+  background-color:rgb(0, 0, 0);
+  margin: 0px;
+  padding: 1%;
+}
+h2{
+  color: whitesmoke;
+  display: inline;
+  padding-left: 5%;
+  transition: 0.15ms;
+}
+
+.loadMore{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    background-color: rgb(118, 217, 18);
+    margin-left: 45%;
+    margin-top: 5%;
+    transition: 0.15ms;
+}
+.loadMore:hover{
+    cursor: pointer;
+    border-style: solid;
+    background-color: black;
+    color: rgb(118, 217, 18);
+    border-color: rgb(118, 217, 18);
+}
+h2 span:hover{
+    color: rgb(118, 217, 18);
+}

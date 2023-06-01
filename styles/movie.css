@@ -38,17 +38,32 @@ p{
     place-items: center;
   }
 .loadMore{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 25px;
-  padding-left: 25px;
-  border: none;
-  border-radius: 20px;
+  padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    background-color: rgb(118, 217, 18);
+    transition: 0.15ms;
+}
+.loadMore:hover{
+  cursor: pointer;
+  border-style: solid;
+  background-color: #020916;
+  color: rgb(118, 217, 18);
+  border-color: rgb(118, 217, 18);
 }
 .buttondiv{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
 
 .topbar{
@@ -56,9 +71,14 @@ p{
   margin: 0px;
   padding: 1%;
 }
-h3{
+h2{
   color: whitesmoke;
   display: inline;
+  padding-left: 5%;
+  transition: 0.15ms;
+}
+h2 span:hover{
+  color: rgb(118, 217, 18);
 }
 
 .search{
