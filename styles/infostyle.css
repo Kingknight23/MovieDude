@@ -49,3 +49,29 @@ img{
     display: inline-flex;
     justify-content: center;
 }
+.error{
+    color: white;
+    margin-left: 27%;
+}
+.return{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 45px;
+    padding-left: 45px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    background-color: rgb(118, 217, 18);
+    margin-left: 45%;
+    margin-top: 5%;
+    transition: 0.15ms;
+}
+
+.return:hover{
+    cursor: pointer;
+    border-style: solid;
+    background-color: #020916;
+    color: rgb(118, 217, 18);
+    border-color: rgb(118, 217, 18);
+}
