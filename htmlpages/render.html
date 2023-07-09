@@ -6,25 +6,57 @@
     <title>Movie Guru</title>
     <link rel="stylesheet" href="../styles/movie.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5152832725344220"
+     crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="topbar">
-        <h2><a href="../index.html"><span>Movie &#403;uru</span></a> 🎥</h2>
+        <h2><a href="../index.html"><span>MovieDude</span></a>  <sup>powered by TMDB</sup></h2>
         <div class="left">
             <input type="text" name="search" placeholder="Search..." class="search" id="search">
-            <button class="login" id="login">Login</button
+            <div data-netlify-identity-button id="user"></div>
         </div>
             
     </nav>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
-    <main>
-        
-        <div class="movie-grid" >
-        </div>
-        <button class="loadMore" onclick="loadMore()">Load More</button>
-    </main>
     
+    <main class="main">
+        <div class="bar">
+            <h2> Featured</h2>
+            <button class="trending" id="movies"onclick="MovieTrend ()">Movies</button>
+            <button class="trending" id="Tvshow" onclick="tvTrend()">Tv Shows</button>
+            <button class="trending" id="trendingButton" onclick="trending ()">Trending</button>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+        <div class="movie-grid" id="movie-grid" >
+        </div>
+        <button id="loadMore" class="loadMore">Load More</button>
+    </main>
     <script src="../scripts/TMDB.js"></script>
-    <script src="../scripts/movieload.js"></script>
+    <script src="../scripts/info.js"></script>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <a href="/htmlpages/about-us.html" class="about-us"><h3>About Us</h3></a>
+                <p>Whether you're a casual moviegoer or a devoted cinephile, MovieDude is your go-to source for all things movies...</p>
+              </div>
+              <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p>Email: dummy@gmail.com</p>
+                <p>Phone: +1 999-999-9999</p>
+              </div>
+              <div class="footer-section">
+                <h3>FAQ</h3>
+                <p><a href="FAQ.html">FAQ</a></p>
+              </div>
+              <div class="footer-section">
+                <h3>Privacy Policy</h3>
+                <p><a href="/htmlpages/privacy-policy.html">Read our privacy policy</a></p>
+              </div>
+              <div class="footer-section">
+                <h3>Terms of Service</h3>
+                <p><a href="/htmlpages/terms-of-service.html">Read our terms of service</a></p>
+              </div>
+        </div>
+    </footer>
 </body>
 </html>
