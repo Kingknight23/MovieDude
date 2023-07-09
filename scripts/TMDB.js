@@ -19,7 +19,7 @@ async function multisearch(value, num=1) {
       'Cache-Control': 'private',
       accept: 'application/json',
       //const bcrypt = require('bcrypt');
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZDM0MjI3ZmY0NTc4ZjI1OGMyYjg4ZjkyYTdkOTA2ZSIsInN1YiI6IjY0YTBjODIwZDUxOTFmMDBmZjhiY2E4NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kzuIlYzurUYIyJop8nw8_Swm-H2esjAiqe5UbsgKhw4'
+      Authorization: key;
       
     }
   };
@@ -46,7 +46,7 @@ async function trending (){
       method: 'GET',
       headers: {
         accept: 'application/json',
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZDM0MjI3ZmY0NTc4ZjI1OGMyYjg4ZjkyYTdkOTA2ZSIsInN1YiI6IjY0YTBjODIwZDUxOTFmMDBmZjhiY2E4NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kzuIlYzurUYIyJop8nw8_Swm-H2esjAiqe5UbsgKhw4'
+        Authorization: key;
       }
     };
     
@@ -67,7 +67,7 @@ async function MovieTrend (){
       method: 'GET',
       headers: {
         accept: 'application/json',
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZDM0MjI3ZmY0NTc4ZjI1OGMyYjg4ZjkyYTdkOTA2ZSIsInN1YiI6IjY0YTBjODIwZDUxOTFmMDBmZjhiY2E4NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kzuIlYzurUYIyJop8nw8_Swm-H2esjAiqe5UbsgKhw4'
+        Authorization: key;
       }
     };
     
@@ -89,7 +89,7 @@ async function tvTrend (){
       method: 'GET',
       headers: {
         accept: 'application/json',
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZDM0MjI3ZmY0NTc4ZjI1OGMyYjg4ZjkyYTdkOTA2ZSIsInN1YiI6IjY0YTBjODIwZDUxOTFmMDBmZjhiY2E4NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kzuIlYzurUYIyJop8nw8_Swm-H2esjAiqe5UbsgKhw4'
+        Authorization: key;
       }
     };
     
@@ -110,7 +110,7 @@ async function general (type){
       method: 'GET',
       headers: {
         accept: 'application/json',
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZDM0MjI3ZmY0NTc4ZjI1OGMyYjg4ZjkyYTdkOTA2ZSIsInN1YiI6IjY0YTBjODIwZDUxOTFmMDBmZjhiY2E4NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.kzuIlYzurUYIyJop8nw8_Swm-H2esjAiqe5UbsgKhw4'
+         Authorization: key;
       }
     };
     
