@@ -4,30 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mailing List Signup</title>
-    <link rel="stylesheet" href="/styles/mailling.css">
+    <link rel="stylesheet" href="/styles/mailling.css" />
     <script src="formMailinglist.js"></script>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5152832725344220"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="box">
       <h1>Mailing List Signup</h1>
-      <form>
-        
-          <p>
-            Get news about the band such as tour dates and special MP3 releases
-            sent to your own in-box.
-          </p>
-          <div class="inputFeilds">
-            <label for="firstlast">Name:</label>
-            <input type="text" name="username" id="firstlast" placeholder="username" list="listName" />
-          </div>
-          <div class="inputFeilds"> 
-            <label for="email">Email:</label>
-            <input type="text" name="email" id="email" placeholder="username@email.com" />
-          </div>
+      <form name="Login" method="POST" data-netlify="true">
+        <p>
+          Get news about the band such as tour dates and special MP3 releases
+          sent to your own in-box.
+        </p>
+        <div class="inputFeilds">
+          <label for="firstlast">Name:</label>
+          <input
+            type="text"
+            name="username"
+            id="firstlast"
+            placeholder="username"
+            list="listName"
+          />
+        </div>
+        <div class="inputFeilds">
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="username@email.com"
+          />
+        </div>
+        <div class="inputFeilds">
+          <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required placeholder="password">
+        </div>
 
-          <input type="submit" value="Login" onclick="saveFormData(event)" />
+        <input type="submit" value="Login" onclick="saveFormData(event)" />
       </form>
     </div>
-    
   </body>
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="moviedude" data-description="Support me on Buy me a coffee!" data-message="" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 </html>

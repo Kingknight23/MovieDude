@@ -5,7 +5,7 @@
  * @param {number} stop 
  * @returns none
  */
-function loadAll(movies, start, stop){
+/*function loadAll(movies, start, stop){
   movies.slice(start, stop).forEach(function (movie) {
     let newDiv = document.createElement("div");
     console.log(newDiv);
@@ -56,7 +56,7 @@ function loadAll(movies, start, stop){
   
   movieGrid.appendChild(newDiv);
   });
-}
+}*/
 
 /**
  * load movies with movie info into a grid  raging 0-25
@@ -78,10 +78,10 @@ function loadMoreMovies(movies) {
   loadAll(movies, count, count+10);
 }
 
-function handleClick(element) {
+/*function handleClick(element) {
   console.log(element);
   localStorage.setItem("movieName", element);
-}
+}*/
 
 function performSearch(input) {
   console.log(input.value);
@@ -101,7 +101,7 @@ window.addEventListener("unload", function () {
 try {loadMovies(movie);
 
 // Load more movies when needed
-loadMoreMovies(movie);
+//loadMoreMovies(movie);
 // Get the button
 let mybutton = document.getElementById("myBtn");
 // When the user scrolls down 20px from the top of the document, show the button
@@ -128,7 +128,9 @@ const trendingButton = document.getElementById('trendingButton');
 // Attach a click event listener
 trendingButton.addEventListener('click', function() {
   // Redirect or navigate to the desired page
+  localStorage.setItem("movie",20);
   window.location.href = 'render.html';
+
 });
 
 
